@@ -1,0 +1,69 @@
+$gtk.reset seed: 1657212227
+$gtk.grep_source [".argss", '']
+$gtk.reset seed: 1657212227
+$gtk.reset seed: 1657172666
+$gtk.grep_source [".blueSquareH", '']
+$gtk.reset seed: 1657168849
+$gtk.reset seed: 1657159766
+$gtk.reset seed: 1657152583
+$gtk.reset seed: 1657149998
+$gtk.reset seed: 1657146024
+$gtk.reset seed: 1657145490
+$gtk.reset seed: 1657144608
+$gtk.reset seed: 1657144500
+$gtk.reset seed: 1657144473
+$gtk.reset seed: 1657144424
+$gtk.reset seed: 1657143999
+$gtk.reset seed: 1657143651
+$gtk.reset seed: 1657143591
+$gtk.reset seed: 1657143549
+$gtk.reset seed: 1657143478
+$gtk.reset seed: 1657143401
+$gtk.reset seed: 1657143363
+$gtk.reset seed: 1657143302
+$gtk.reset seed: 1657143237
+$gtk.reset seed: 1657142962
+$gtk.reset seed: 1657142874
+$gtk.reset seed: 1657142817
+$gtk.reset seed: 1657136246
+$gtk.reset seed: 1657134587
+$gtk.reset seed: 1657134402
+$gtk.reset seed: 1657134338
+$gtk.reset seed: 1657133224
+$gtk.reset seed: 1657133018
+$gtk.reset seed: 1657131810
+$gtk.reset seed: 1657130511
+$gtk.reset seed: 1657130044
+$gtk.reset seed: 1657129915
+$gtk.reset seed: 1657129794
+$gtk.reset seed: 1657129659
+$gtk.reset seed: 1657129557
+$gtk.reset seed: 1657129065
+$gtk.reset seed: 1657129035
+$gtk.reset seed: 1657128609
+$gtk.reset seed: 1657128414
+$gtk.reset seed: 1657128367
+$gtk.reset seed: 1657128320
+$gtk.reset seed: 1657087454
+$gtk.reset seed: 1657085842
+$gtk.reset seed: 1657085746
+$gtk.reset seed: 1657085632
+$gtk.reset seed: 1657085293
+$gtk.grep_source [".GameObject", '']
+$gtk.reset seed: 1657083217
+$gtk.reset seed: 1657082785
+$gtk.reset seed: 1657082464
+$gtk.reset seed: 1656810892
+$gtk.reset seed: 1656810818
+$gtk.reset seed: 1656810565
+$gtk.reset seed: 1656810432
+$gtk.reset seed: 1656809038
+$gtk.reset seed: 1656809489
+$gtk.reset
+.docs GTK::Mouse
+GTK::Mouse.docs
+GTK::Mouse.docs_class
+GTK::Mouse.docs_classes
+GTK::Outputs.docs
+GTK:Outputs.docs_class
+GTK::Outputs.docs_class

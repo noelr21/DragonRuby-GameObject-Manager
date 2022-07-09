@@ -1,0 +1,153 @@
+
+* DOCS:
+Here are the classes that have documentation. You can call the .docs method
+on any of these classes:
+** GTK::ReadMe.docs
+** GTK::Runtime.docs
+** Array.docs
+** GTK::Args.docs
+** GTK::Outputs.docs
+** GTK::Mouse.docs
+** GTK::OpenEntity.docs
+** Numeric.docs
+** Kernel.docs
+** Geometry.docs
+
+
+* WARNING: Solid does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Solid
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { x: x, y: y, w: w, h: h, r: r, g: g, b: b, a: a }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: Solid does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class Solid
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { x: x, y: y, w: w, h: h, r: r, g: g, b: b, a: a }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: GameObject does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class GameObject
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* WARNING: GameObject does not support serialization. Returning nil.
+Please override the :serialize method and return a hash so that
+Class can be persisted to disk in the event of an exception.
+Here is an example of what you need to do:
+#+begin_src ruby
+class GameObject
+  # 1. Create a serialize method that returns a hash with all of
+  #    the values you care about.
+  def serialize
+    { }
+  end
+
+  # 2. Override the inspect method and return ~serialize.to_s~.
+  def inspect
+    serialize.to_s
+  end
+
+  # 3. Override to_s and return ~serialize.to_s~.
+  def to_s
+    serialize.to_s
+  end
+end
+#+end_src
+
+[Message ID: []]
+
+
+* DOCS:
+Here are the classes that have documentation. You can call the .docs method
+on any of these classes:
+** GTK::ReadMe.docs
+** GTK::Runtime.docs
+** Array.docs
+** GTK::Args.docs
+** GTK::Outputs.docs
+** GTK::Mouse.docs
+** GTK::OpenEntity.docs
+** Numeric.docs
+** Kernel.docs
+** Geometry.docs
+
+
+* DOCS:
+Here are the classes that have documentation. You can call the .docs method
+on any of these classes:
+** GTK::ReadMe.docs
+** GTK::Runtime.docs
+** Array.docs
+** GTK::Args.docs
+** GTK::Outputs.docs
+** GTK::Mouse.docs
+** GTK::OpenEntity.docs
+** Numeric.docs
+** Kernel.docs
+** Geometry.docs
+

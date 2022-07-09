@@ -1,0 +1,254 @@
+* 000000 [Engine] Log started at 2022/7/7 12:43:46
+* 000000 [Engine] This copy of the engine is git hash cf202a80b3808d8a7891dd0535ed89db2ee02b67, built on Jun  5 2022, at 16:36:49
+* 000000 [Engine] Platform: Linux
+* 000000 [Engine] 
+* 000000 [Engine] *******************************************************************************************
+* 000000 [Engine] *** This is the Standard license build!                                                 ***
+* 000000 [Engine] *** Get more with an Indie or Pro license such as C extensions, mobile dev, and VR dev! ***
+* 000000 [Engine] *** Details at http://dragonruby.org/toolkit/game#purchase                              ***
+* 000000 [Engine] *******************************************************************************************
+* 000000 [Engine] 
+# 000000 [Engine] Unknown game metadata key '#devid', ignoring
+# 000000 [Engine] Unknown game metadata key '#devtitle', ignoring
+# 000000 [Engine] Unknown game metadata key '#gameid', ignoring
+# 000000 [Engine] Unknown game metadata key '#gametitle', ignoring
+# 000000 [Engine] Unknown game metadata key '#version', ignoring
+# 000000 [Engine] Unknown game metadata key '#icon', ignoring
+# 000000 [Engine] Unknown game metadata key '#compile_ruby', ignoring
+# 000000 [Engine] Unknown game metadata key '#packageid', ignoring
+! 000000 [Engine] Metadata file does not have all required fields!
+- 000000 [Engine] Game ID: hello-SDL
+- 000000 [Engine] Game title: Update metadata/game_metadata.txt in your mygame directory to change this title.
+- 000000 [Engine] Game version: 1.0
+- 000000 [Engine] Game package ID: org.dragonruby.hello-SDL
+- 000000 [Engine] Game Developer ID: dragonruby
+- 000000 [Engine] Game Developer title: DragonRuby LLC
+- 000000 [Engine] Production build: no
+? 000000 [Engine] RNG seed has been set to 1657212227.
+? 000000 [Engine] Marked app/main.rb for reload. (-1)
+? 000647 [Engine] Marked app/components/solid.rb for reload. (38800)
+? 001637 [Engine] Marked app/components/solid.rb for reload. (98195)
+? 001661 [Engine] Marked app/components/solid.rb for reload. (99635)
+? 001731 [Engine] Marked app/game_object.rb for reload. (103835)
+? 001811 [Engine] Marked app/components/component.rb for reload. (108635)
+? 001815 [Engine] Marked app/components/component.rb for reload. (108875)
+? 001831 [Engine] Marked app/components/component.rb for reload. (109834)
+? 001840 [Engine] Marked app/components/component.rb for reload. (110374)
+? 001904 [Engine] Marked app/components/solid.rb for reload. (114214)
+- 001904 [Game] Game state and exception will be written to logs/exceptions/game_state_114208.txt and logs/exceptions/current.txt.
+- 001904 [Game] * EXCEPTION: 'tick': wrong number of arguments (1 for 0)
+** Backtrace:
+*** app/components/solid.rb:22:in tick
+*** app/game_object.rb:48:in processTick
+*** app/game_object.rb:47:in processTick
+*** app/main.rb:23:in tick
+*** app/main.rb:22:in tick
+*** app/components/solid.rb:27 (114217)
+? 001958 [Engine] Marked app/game_object.rb for reload. (117449)
+- 001958 [Game] Game state and exception will be written to logs/exceptions/game_state_114209.txt and logs/exceptions/current.txt.
+- 001958 [Game] * EXCEPTION: 'tick': wrong number of arguments (1 for 0)
+** Backtrace:
+*** app/components/solid.rb:22:in tick
+*** app/game_object.rb:51:in processTick
+*** app/game_object.rb:50:in processTick
+*** app/main.rb:23:in tick
+*** app/main.rb:22:in tick
+*** app/game_object.rb:2 (117452)
+? 001967 [Engine] Marked app/game_object.rb for reload. (117987)
+- 001967 [Game] Game state and exception will be written to logs/exceptions/game_state_114210.txt and logs/exceptions/current.txt.
+- 001967 [Game] * EXCEPTION: 'processTick': wrong number of arguments (1 for 0)
+** Backtrace:
+*** app/game_object.rb:48:in processTick
+*** app/main.rb:23:in tick
+*** app/main.rb:22:in tick
+*** app/game_object.rb:2 (117990)
+? 001992 [Engine] Marked app/main.rb for reload. (119485)
+- 001992 [Game] Game state and exception will be written to logs/exceptions/game_state_114211.txt and logs/exceptions/current.txt.
+- 001992 [Game] * EXCEPTION: 'processTick': wrong number of arguments (1 for 0)
+** Backtrace:
+*** app/game_object.rb:48:in processTick
+*** app/main.rb:24:in tick
+*** app/main.rb:23:in tick
+*** app/components/draggable_solid.rb:1 (119488)
+? 002004 [Engine] Marked app/main.rb for reload. (120203)
+- 002004 [Game] Game state and exception will be written to logs/exceptions/game_state_114212.txt and logs/exceptions/current.txt.
+- 002004 [Game] * EXCEPTION: 'processTick': wrong number of arguments (1 for 0)
+** Backtrace:
+*** app/game_object.rb:48:in processTick
+*** app/main.rb:24:in tick
+*** app/main.rb:23:in tick
+*** app/components/draggable_solid.rb:1 (120206)
+? 002024 [Engine] Marked app/main.rb for reload. (121395)
+- 002024 [Game] Game state and exception will be written to logs/exceptions/game_state_114213.txt and logs/exceptions/current.txt.
+- 002024 [Game] * EXCEPTION:
+* ERROR - :outputs method missing on ~Array~.
+The method named
+  :outputs
+doesn't exist on
+  [Array, Enumerable].
+#+begin_src ~Array#inspect~
+[{:name=>"Black Square", :components=>[{:x=>625.0, :y=>507.0, :w=>415.0, :h=>-398.0, :r=>0, :g=>0, :b=>0, :a=>255}]}, {:name=>"Blue Square", :components=>[{:x=>723.0, :y=>482.0, :w=>287.0, :h=>-158.0, :r=>0, :g=>0, :b=>255, :a=>255}]}]
+#+end_src ~Array#inspect~ for :outputs method missing on ~Array~
+
+** Did you mean?
+Here's a list of methods that kind of look like :outputs.
+*** :outputs_add_dwim, *** :outputs_mark!, *** :outputs_resolve_collection, *** :outputs_resolved?
+** Backtrace:
+*** app/components/solid.rb:23:in tick
+*** app/game_object.rb:51:in processTick
+*** app/game_object.rb:50:in processTick
+*** app/main.rb:24:in tick
+*** app/main.rb:23:in tick
+*** app/components/draggable_solid.rb:1 (121398)
+? 002035 [Engine] Marked app/main.rb for reload. (122054)
+- 002035 [Game] Game state and exception will be written to logs/exceptions/game_state_114214.txt and logs/exceptions/current.txt.
+- 002035 [Game] * EXCEPTION:
+* ERROR - :outputs method missing on ~Class~.
+The method named
+  :outputs
+doesn't exist on
+  [NilClass].
+#+begin_src ~Class#inspect~
+NIL
+#+end_src ~Class#inspect~ for :outputs method missing on ~Class~
+** Backtrace:
+*** app/components/solid.rb:23:in tick
+*** app/game_object.rb:51:in processTick
+*** app/game_object.rb:50:in processTick
+*** app/main.rb:25:in tick
+*** app/main.rb:24:in tick
+*** app/components/draggable_solid.rb:1 (122057)
+? 002049 [Engine] Marked app/main.rb for reload. (122889)
+- 002049 [Game] Game state and exception will be written to logs/exceptions/game_state_114215.txt and logs/exceptions/current.txt.
+- 002049 [Game] * EXCEPTION:
+* ERROR:
+Undefined method argss for main.
+
+
+** Backtrace:
+*** app/main.rb:25:in tick
+*** app/main.rb:24:in tick
+*** app/components/draggable_solid.rb:1 (122892)
+? 002051 [Engine] Marked app/main.rb for reload. (123008)
+? 002070 [Engine] RNG seed has been set to 1657212227.
+- 002070 [Game] Game state and exception will be written to logs/exceptions/game_state_0.txt and logs/exceptions/current.txt.
+- 002070 [Game] * EXCEPTION: 'checkCornerHovered': wrong number of arguments (1 for 0)
+** Backtrace:
+*** app/components/draggable_solid.rb:18:in checkCornerHovered
+*** app/components/draggable_solid.rb:69:in tick
+*** app/game_object.rb:51:in processTick
+*** app/game_object.rb:50:in processTick
+*** app/main.rb:26:in tick
+*** app/main.rb:24:in tick
+*** app/components/draggable_solid.rb:1 (124129)
+- 002070 [Game] Game state and exception will be written to logs/exceptions/game_state_1.txt and logs/exceptions/current.txt.
+- 002070 [Game] * EXCEPTION: 'checkCornerHovered': wrong number of arguments (1 for 0)
+** Backtrace:
+*** app/components/draggable_solid.rb:18:in checkCornerHovered
+*** app/components/draggable_solid.rb:69:in tick
+*** app/game_object.rb:51:in processTick
+*** app/game_object.rb:50:in processTick
+*** app/main.rb:26:in tick
+*** app/main.rb:24:in tick
+*** app/components/draggable_solid.rb:1 (124131)
+? 002098 [Engine] Marked app/components/draggable_solid.rb for reload. (125781)
+- 002115 [Game] * WARNING:
+Your average framerate dropped below 60 fps for two seconds.
+
+The average FPS was 21.84782608695652.
+
+** How To Disable Warning
+If this warning is getting annoying put the following in your tick method:
+
+#+begin_src
+  args.gtk.log_level = :off
+#+end_src
+
+* INFO: Framerate Diagnostics
+You can display these diagnostics using:
+
+#+begin_src
+  def tick args
+    # ....
+
+    # IMPORTANT: Put this at the END of the ~tick~ method.
+    args.outputs.debug << args.gtk.framerate_diagnostics_primitives
+  end
+#+end_src
+
+** Draw Calls: ~<<~ Invocation Perf Counter
+Here is how many times ~args.outputs.PRIMITIVE_ARRAY <<~ was called:
+
+  2 times invoked.
+
+If the number above is high, consider batching primitives so you can lower the invocation of ~<<~. For example.
+
+Instead of:
+
+#+begin_src
+  args.state.enemies.map do |e|
+    e.alpha = 128
+    args.outputs.sprites << e # <-- ~args.outputs.sprites <<~ is invoked a lot
+  end
+#+end_src
+
+Do this:
+
+#+begin_src
+  args.outputs.sprites << args.state
+                              .enemies
+                              .map do |e| # <-- ~args.outputs.sprites <<~ is only invoked once.
+    e.alpha = 128
+    e
+  end
+#+end_src
+
+** Array Primitives
+~Primitives~ represented as an ~Array~ (~Tuple~) are great for prototyping, but are not as performant as using a ~Hash~.
+
+Here is the number of ~Array~ primitives that were encountered:
+
+  0 Array Primitives.
+
+If the number above is high, consider converting them to hashes. For example.
+
+Instead of:
+
+#+begin_src
+  args.outputs.sprites << [0, 0, 100, 100, 'sprites/enemy.png']
+#+begin_end
+
+Do this:
+
+#+begin_src
+  args.outputs.sprites << { x: 0,
+                            y: 0,
+                            w: 100,
+                            h: 100,
+                            path: 'sprites/enemy.png' }
+#+begin_end
+
+** Primitive Counts
+Here are the draw counts ordered by lowest to highest z order:
+
+PRIMITIVE   COUNT, STATIC COUNT
+solids:     2, 0
+sprites:    0, 0
+primitives: 0, 0
+labels:     0, 0
+lines:      0, 0
+borders:    0, 0
+debug:      0, 0
+reserved:   0, 0
+
+** Additional Help
+Come to the DragonRuby Discord channel if you need help troubleshooting performance issues. http://discord.dragonruby.org.
+
+Source code for these diagnostics can be found at: [[https://github.com/dragonruby/dragonruby-game-toolkit-contrib/]]
+
+
+? 005656 [Engine] Marked app/main.rb for reload. (339252)
+? 005739 [Engine] Marked app/main.rb for reload. (344231)
+? 005764 [Engine] Marked app/main.rb for reload. (345729)
+? 005835 [Engine] Marked app/components/draggable_solid.rb for reload. (349987)
+* 008536 [Engine] Logging shutting down
